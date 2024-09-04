@@ -6,4 +6,12 @@ public class Address{
     public String pincode;
     public String city;
 
+    @Override
+    public String toString() {
+        return "Address{" +
+                "area='" + area + '\'' +
+                ", pincode='" + pincode + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 }
